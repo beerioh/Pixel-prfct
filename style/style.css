@@ -1,0 +1,518 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+.full-width-container{
+    width: 99vw;
+    justify-content: center;
+}
+.main-layout{
+    background-color: #1b2330;
+    height: 3622px;
+    width: 1440px;
+}
+.header{
+    margin-top: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px;
+}
+.nav-bar{
+width: 271px;
+justify-content: space-between;
+}
+.nav-section{
+width: 60px;
+height: 19px;
+color: #ffffff;
+font-family: 'Raleway', sans-serif;
+font-size: 16px;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: left;
+background-color: none;
+}
+.flex{
+    display: flex;
+}
+
+
+.all-your-files{
+    margin: 76px 0 0 0;
+    align-items: center;
+    flex-direction: column;
+    /* border: 1px solid red */
+    ;
+}
+.all-img{
+    width:720px;
+    height: 534px;
+}
+.all-title{
+    margin-top: 36px;
+/* Style for "All your f" */
+width: 734px;
+height: 114px;
+color: #ffffff;
+font-family: 'Raleway', sans-serif;
+font-size: 40px;
+font-weight: 700;
+font-style: normal;
+letter-spacing: normal;
+line-height: 60px;
+text-align: center;
+}
+.all-inner-text{
+    margin-top: 36px;
+/* Style for "Fylo store" */
+width: 589px;
+height: 88px;
+color: #ffffff;
+font-family: 'Raleway', sans-serif;
+font-size: 20px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 30px;
+text-align: center;
+}
+.get-started-btn{
+    align-items: center;
+    justify-content: center;
+    /* Style for "Get Starte" */
+width: 89px;
+height: 19px;
+color: #ffffff;
+font-family: 'Raleway', sans-serif;
+font-size: 16px;
+font-weight: 700;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: left;
+    margin-top: 34px;
+    /* Style for "Rectangle" */
+width: 280px;
+height: 56px;
+box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.16);
+border-radius: 28px;
+background-image: linear-gradient(152deg, #63e1d9 0%, #34a0cd 100%);
+}
+
+
+.selectors{
+   
+    margin-top: 176px;
+margin-bottom: 137px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 507px;
+/* border: 1px solid white; */
+}
+.selectors-upper{
+display: flex;
+/* border: 1px solid yellowgreen; */
+margin-bottom: 97px;
+}
+.selectors-lower{
+    /* border: 1px solid rgb(255, 147, 47); */
+display: flex;
+flex-direction: row;
+
+}
+.selector-squre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    margin: 0 75px;
+}
+.selector-img{
+    margin-bottom: 30px;
+}
+.selectors-title{
+/* Style for "Access you" */
+margin-bottom: 8px;
+width: 263px;
+height: 24px;
+color: #ffffff;
+font-family: 'Raleway', sans-serif;
+font-size: 20px;
+font-weight: bold;
+font-style: normal;
+
+letter-spacing: normal;
+line-height: normal;
+text-align: center;
+}
+.selectors-text{
+/* Style for "The abilit" */
+width: 349px;
+height: 62px;
+color: #ffffff;
+font-family: 'Open Sans', sans-serif;
+font-size: 14px;
+font-weight: 100;
+font-style: normal;
+letter-spacing: normal;
+line-height: 21px;
+text-align: center;
+}
+
+.proactive{
+height: 464px;
+width: 100%;
+
+align-items: center;
+justify-content: center;
+/* padding: 0 105px; */
+/* border:  solid white; */
+margin-bottom: 120px;
+}
+.proactive-img{
+height: 464px;
+width: 615px;
+}
+.proactive-right{
+margin-left: 57px;
+}
+.proactive-right-title{
+/* Style for "Stay produ" */
+width: 506px;
+height: 99px;
+color: #ffffff;
+font-family: "Raleway" , sans-serif;
+font-size: 40px;
+font-weight: 700;
+font-style: normal;
+letter-spacing: normal;
+line-height: 50px;
+text-align: left;
+margin-bottom: 20px;
+}
+.proactive-right-text{
+    /* Style for "Never let" */
+width: 563px;
+height: 46px;
+color: #ffffff;
+font-family: "Open Sans" , sans-serif;
+font-size: 16px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 24px;
+text-align: left;
+margin-bottom: 18px;
+
+}
+.proactive-bottom-link{
+
+}
+.proactive-link{
+
+}
+.ink-icon{
+
+}
+
+.review{
+padding: 0 140px;
+justify-content: space-between;
+/* border: 1px solid yellow; */
+margin-bottom: 201px;
+}
+.card{
+width: 360;
+height: 200;
+justify-content: center;
+/* align-items: center; */
+/* border: 1px solid white; */
+flex-direction: column;
+/* Style for "Rectangle" */
+width: 360px;
+height: 200px;
+box-shadow: 5px 5px 8px 4px rgba(56, 56, 56, 0.1);
+border-radius: 4px;
+background-color: #202a3c;
+padding: 40px 24px 26px 26px;
+
+
+}
+.card-title{
+/* Style for "Fylo has i" */
+width: 310px;
+height: 80px;
+color: #ffffff;
+font-family: 'Open Sans', sans-serif;
+font-size: 14px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: 0.5px;
+line-height: 21px;
+text-align: left;
+}
+.card-user{
+display: flex;
+margin-top: 28px;
+margin-right: 0;
+justify-content: right;
+align-items: flex-start;
+}
+.user-img{
+height: 24px;
+width: 24px;
+border-radius: 50%;
+margin-right: 8px;
+}
+.user-info{
+    width: 100%;
+    /* justify-content: right; */
+    /* align-items: flex-start; */
+display: flex;
+flex-direction: column;
+
+}
+.user-name{
+/* Style for "Iva Boyd" */
+width: 100px;
+height: 13px;
+color: #ffffff;
+font-family: 'Open Sans', sans-serif;
+font-size: 10px;
+font-weight: 700;
+font-style: normal;
+letter-spacing: 0.5px;
+line-height: 12px;
+text-align: left;
+}
+.user-title{
+/* Style for "Founder &" */
+width: 101px;
+height: 10px;
+color: #ffffff;
+font-family: 'Open Sans', sans-serif;
+font-size: 8px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: 0.57px;
+line-height: 10px;
+text-align: left;
+/* Text style for "e" */
+font-style: normal;
+letter-spacing: 0.65px;
+line-height: normal;
+}
+
+.call-to-action-container{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.call-to-action{
+    height: 275px;
+    width: 863px;
+    /* border: 1px solid yellowgreen; */
+    padding: 42px 77px;
+    /* Style for "Rectangle" */
+width: 863px;
+height: 275px;
+box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.25);
+border-radius: 9px;
+background-color: #1b2330;
+flex-direction: column;
+align-items: center;
+}
+.call-to-action-title{
+    /* Style for "Get early" */
+width: 346px;
+height: 48px;
+color: #ffffff;
+font-family: 'Raleway', sans-serif;
+font-size: 32px;
+font-weight: 700;
+font-style: normal;
+letter-spacing: normal;
+line-height: 48px;
+text-align: left;
+margin-bottom: 16px;
+}
+.call-to-action-text{
+/* Style for "It only ta" */
+width: 673px;
+height: 41px;
+color: #ffffff;
+font-family: 'Raleway', sans-serif;
+font-size: 14px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 21px;
+text-align: center;
+margin-bottom: 40px;
+}
+.call-to-action-bottom{
+width: 100%;
+display: flex;
+}
+.call-to-action-input{
+/* Style for "Rectangle" */
+width: 480px;
+height: 48px;
+box-shadow: 2px 3px 6px rgba(7, 4, 59, 0.16);
+border-radius: 24px;
+background-color: #ffffff;
+padding: 0 38px;
+color: #eee7e7;
+}
+.call-to-action-btn{
+    /* Style for "Rectangle" */
+width: 200px;
+height: 48px;
+box-shadow: 2px 3px 6px rgba(7, 4, 59, 0.16);
+border-radius: 24px;
+background-image: linear-gradient(152deg, #63e1d9 0%, #34a0cd 100%);
+margin-left: 29px;
+/* Style for "Get Starte" */
+/* width: 147px; */
+/* height: 18px; */
+color: #ffffff;
+font-family: 'Raleway', sans-serif;
+font-size: 14px;
+font-weight: 700;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: center;
+
+}
+
+
+.footer{
+padding-top: 200px;
+margin-top: -116px;
+width: 1441px;
+height: 517px;
+background-color: #0b1524;
+padding: 200px 120px 0 120px;
+}
+.footer-bottom{
+margin-top: 41px;
+}
+.location{
+    width: 379px;
+    height: 70px;
+    margin-right: 72px;
+}
+.location-icon{
+    width: 13px;
+    height: 18px;
+    margin-right:27px ;
+}
+.location-text{
+    /* Style for "Lorem ipsu" */
+width: 339px;
+height: 70px;
+color: #ffffff;
+font-family: "Open Sans" , sans-serif;
+font-size: 16px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 24px;
+text-align: left;
+}
+.contact{
+    flex-direction: column;
+    width: 171px;
+    height: 64px;
+    margin-right: 146px;
+}
+.phone-img{
+    margin-right: 26px;
+    margin-bottom: 23px;
+}
+.phone-nu{
+    /* Style for "+1-543-123" */
+width: 110px;
+height: 21px;
+color: #ffffff;
+font-family: "Open Sans" , sans-serif;
+font-size: 14px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 21px;
+text-align: center;
+}
+.email-icon{
+    margin-right: 26px;
+}
+.email-adrs{
+    /* Style for "example@fy" */
+width: 125px;
+height: 21px;
+color: #ffffff;
+font-family: "Open Sans" , sans-serif;
+font-size: 14px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 21px;
+text-align: center;
+}
+.links{
+    flex-direction: column;
+    width: 69px;
+    height: 136px;
+    margin-right: 80px;
+}
+.links a{
+    margin-bottom: 16px;
+    /* Style for "About Us" */
+width: 69px;
+height: 22px;
+color: #ffffff;
+font-family: "Open Sans" , sans-serif;
+font-size: 16px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: left;
+}
+.pages{
+        flex-direction: column;
+    width: 81px;
+    height: 98px;
+    margin-right: 114px;
+
+}
+.pages a{
+    margin-bottom: 16px;
+    /* Style for "Contact Us" */
+width: 81px;
+height: 22px;
+color: #ffffff;
+font-family: "Open Sans" , sans-serif;
+font-size: 16px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: left;
+
+}
+.social{
+    width: 31px;
+    height: 119px;
+    /* margin-right: 114px; */
+}
+a{
+    text-decoration: none;
+}
